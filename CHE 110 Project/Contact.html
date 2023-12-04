@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Pollution | Contact Us</title>
+    <link rel="stylesheet" href="CHE 110.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+        <section class="header">
+            <nav>
+                <a href="CHE 110.html"><img src="Logo.png" style="border-radius: 50%;"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-time" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="CHE 110.html">Home</a></li>
+                        <li><a href="CHE 110.html #Intro">Introduction</a></li>
+                        <li><a href="CHE 110.html #Effects">Effects</a></li>
+                        <li><a href="CHE 110.html #Measures">Measures</a></li>
+                        <li><a href="More.html">More</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        
+        <div class="container" style="width: 80%; margin: 50px auto;">
+            <h1 class="container">Connect With Us</h1>
+            <p class="container">We would love to respond to your queries and help you.<br>Feel free to get in touch with us.</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send Your Request</h3>
+                    <form>
+                       <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Phone</label>
+                            <input type="text">
+                        </div>
+                       </div> 
+                       <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Email</label>
+                            <input type="email">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Subject</label>
+                            <input type="text">
+                        </div>
+                       </div> 
+                       <label for="">Message</label>
+                       <textarea rows="5" placeholder="Your Message"></textarea>
+                       <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach Us</h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>Ujjwalsh38@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+91 9090909090</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>Block-45, LPU<br>Phagwara, 144411</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+       <!--Footer-->
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Our motto is to spread awareness regarding air pollution.<br>
+        We want that everybody should come together & work to make our air more healthier.</p>
+        <div class="icons">
+            <ul type="none">
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Linkedin</li>
+            </ul>
+        </div>
+        <div class="info">
+            <p>For more information do visit:</p>
+            <ul type="none">
+                <li><a href="https://www.orfonline.org/research/indias-air-pollution-challenge/" target="blank">Observer Research Foundation</a></li>
+                <li><a href="https://dst.gov.in/clean-air-research-initiative-cari" target="blank">Department of Science & Technology</a></li>
+                <li><a href="https://www.indiatoday.in/opinion-columns/story/why-air-pollution-in-india-is-a-public-health-crisis-and-demands-urgent-action-opinion-2347548-2023-03-16" target="blank">India Today</a></li>
+            </ul>
+        </div>
+        <p>Made by Ujjawal, Navadeep & Ankit</p>
+    </section>
+
+    <!--Java Scipt-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Pollution | Home Page</title>
+    <link rel="stylesheet" href="CHE 110.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+            <nav>
+                <a href="CHE 110.html"><img src="Logo.png" style="border-radius: 50%;"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-time" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="CHE 110.html">Home</a></li>
+                        <li><a href="More.html">More</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Air Pollution & India</h1>
+                <p>In 2022, there was average PM2.5 concentration in India.<br>
+                Which was 10.7 times the WHO annual air quality guidline value.</p>
+            </div>
+    </section>
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Img10.png" class="offer-img" height="400px" width="400px">
+                </div>
+                <div class="col-2">
+                    <h1>A Report by ORF</h1>
+                    <small>According to Observer Research Foundation,  Air pollution in India accounted for 1.7 million premature deaths in 2019,<br>
+                        Which is nothing less than 17.8 percent of the total deaths recorded in the country that year.</small><br><br>
+                    <i>Air pollution is a cross-sectoral problem with emissions originating from diverse sources.</i><br><br>
+                    <small>
+                        <ul type="none">
+                            <li>1). Industrial activities constitutes of
+                            36% of total emissions.</li>
+                            <li>2). Residential combustion constitutes of
+                            39% of total emissions.</li>
+                            <li>3). The transport sector, concentrated largely in urban centres, 
+                            adds another 4 percent.</li>
+                            <li>4). Remaining 20% comes from miscellaneous sources like agricultural activities 
+                                and construction works.</li>
+                        </ul>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Img11.webp" class="offer-img" height="350px" width="500px">
+                </div>
+                <div class="col-2">
+                    <h1>Steps Taken by GOI to Counter Air Pollution</h1>
+                    <big>According to SDG - 17, public and government partnership is very important to achieve our goal of healthier air.</big><br>
+                    <small>The Central Government has launched National Clean Air Programme (NCAP) under the Central Sector “Control of Pollution” Scheme as a long-term, time-bound, national level strategy
+                        to tackle the air pollution problem across the country in a comprehensive manner.<br>With targets to achieve 20 % to 30 % reduction in PM10 and PM2.5 concentrations by 2024
+                        keeping 2017 as the base year for the comparison of concentration.</small><br><br>
+                    <i>Other important initiatives taken by GOI</i><br><br>
+                    <small>
+                        <ul type="none">
+                            <li>1). Compulsory PUC (Pollution under control) certification of period driven vehicles which test for carbon monoxide and hydrocarbons.</li>
+                            <li>2). Promotion of public transport network including Metros.</li>
+                            <li>3). A dedicated media corner, Twitter and Facebook accounts have been created for access to air quality related information and to provide a platform for lodging complaints by general population.</li>
+                            <li>4). For field feedback on air polluting activities in Delhi and major NCR towns, 46 teams of  Central Pollution Control Board have been deployed since October 7, 2019.</li>
+                        </ul>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Our motto is to spread awareness regarding air pollution.<br>
+        We want that everybody should come together & work to make our air more healthier.</p>
+        <div class="icons">
+            <ul type="none">
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Linkedin</li>
+            </ul>
+        </div>
+        <div class="info">
+            <p>For more information do visit:</p>
+            <ul type="none">
+                <li><a href="https://www.orfonline.org/research/indias-air-pollution-challenge/" target="blank">Observer Research Foundation</a></li>
+                <li><a href="https://dst.gov.in/clean-air-research-initiative-cari" target="blank">Department of Science & Technology</a></li>
+                <li><a href="https://www.indiatoday.in/opinion-columns/story/why-air-pollution-in-india-is-a-public-health-crisis-and-demands-urgent-action-opinion-2347548-2023-03-16" target="blank">India Today</a></li>
+            </ul>
+        </div>
+        <p>Made by Ujjawal, Navadeep & Ankit</p>
+    </section>
+
+    <!--Java Scipt-->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
